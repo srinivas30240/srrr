@@ -4,4 +4,4 @@
    tasks:
     - name: gather os distro info
       debug:
-       msg: "{{ ansible_distribution }}"
+       msg: "{{ ansible_date_time }}"
