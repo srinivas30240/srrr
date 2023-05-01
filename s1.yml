@@ -1,0 +1,7 @@
+---
+ - hosts: all
+   gather_facts: no
+   tasks:
+    - name: gather os disturo
+	    debug:
+	      msg: "{{ansible_distribution}}"
